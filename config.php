@@ -107,9 +107,9 @@ $THEME->layouts = array(
         'defaultregion' => 'side-pre',
     ),
     'login' => array(
-        'file' => 'general.php',
+        'file' => 'login.php',
         'regions' => array(),
-        'options' => array('langmenu'=>true),
+        'options' => array('langmenu'=>true,'noheader'=>true),
     ),
 
     // Pages that appear in pop-up windows - no navigation, no blocks, no header.

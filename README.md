@@ -54,6 +54,12 @@ Version Information
 2nd February 2013 - Version 2.4.0.1 - Alpha - Do not install on production sites.
   1.  First version.
 
-G J Barnard MSc. BSc(Hons)(Sndw). MBCS. CEng. CITP. PGCE. - 2nd February 2013.
+3rd February 2013 - Version 2.4.0.2 - Alpha - Do not install on production sites.
+  1.  Implemented loginout.php code from Mary Evan's tiny theme at her suggestion - not quite working yet.
+  2.  Fixed calendar being too big.
+  3.  Added html5shim javascript - https://code.google.com/p/html5shim/
+  4.  Moved adapt.js config into 'layout/adapt_config.php'.  Php file as uses $CFG global.  File is then included in other layouts.
+
+G J Barnard MSc. BSc(Hons)(Sndw). MBCS. CEng. CITP. PGCE. - 3rd February 2013.
 Moodle profile: moodle.org/user/profile.php?id=442195.
 Web profile   : about.me/gjbarnard

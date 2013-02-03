@@ -29,4 +29,4 @@ $plugin->version   = 2013020200; // The current module version (Date: YYYYMMDDXX
 $plugin->maturity = MATURITY_ALPHA;
 $plugin->requires  = 2012112900; // Requires this Moodle version
 $plugin->component = 'theme_fluffybunnyfeet'; // Full name of the plugin (used for diagnostics)
-$plugin->release = '2.4.0.1';
+$plugin->release = '2.4.0.2';
