@@ -14,13 +14,13 @@ var ADAPT_CONFIG = {
   // Last range entry is the maximum.
   // Separate ranges by "to" keyword.
   range: [
-    '0px    to 740px  = mobile.min.css',
-    '740px  to 960px  = 720.min.css',
-    '960px  to 1260px = 960.min.css',
-    '1260px to 1580px = 1200.min.css',
-    '1580px to 1920px = 1560.min.css',
-    '1920px to 2540px = 1920.min.css',
-    '2540px           = 2520.min.css'
+    '0px    to 740px  = mobile_16.css',
+    '740px  to 960px  = 720_16.css',
+    '960px  to 1200px = 960_16.css',
+    '1200px to 1520px = 1200_16.css',
+    '1520px to 1920px = 1520_16.css',
+    '1920px to 2560px = 1920_16.css',
+    '2560px           = 2560_16.css'
   ]
 };
 </script>

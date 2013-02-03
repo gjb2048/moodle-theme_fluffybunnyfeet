@@ -59,6 +59,7 @@ Version Information
   2.  Fixed calendar being too big.
   3.  Added html5shim javascript - https://code.google.com/p/html5shim/
   4.  Moved adapt.js config into 'layout/adapt_config.php'.  Php file as uses $CFG global.  File is then included in other layouts.
+  5.  Because of sidebar width issues, have created a custom 16 grid layout using http://grids.heroku.com/.
 
 G J Barnard MSc. BSc(Hons)(Sndw). MBCS. CEng. CITP. PGCE. - 3rd February 2013.
 Moodle profile: moodle.org/user/profile.php?id=442195.

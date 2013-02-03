@@ -65,9 +65,9 @@ echo $OUTPUT->doctype() ?>
 </head>
 <body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses.' '.join(' ', $bodyclasses)) ?>">
 <?php echo $OUTPUT->standard_top_of_body_html(); ?>
-<div id="page" class="container_12">
+<div id="page" class="container_16">
 <?php if ($hasheading || $hasnavbar || !empty($courseheader)) { ?>
-    <div id="page-header" class="grid_12">
+    <div id="page-header" class="grid_16">
         <?php if ($hasheading) { ?>
         <h1 class="headermain"><?php echo $PAGE->heading ?></h1>
         <div class="headermenu"><?php
@@ -100,7 +100,7 @@ echo $OUTPUT->doctype() ?>
             <div id="region-post-box">
 
                 <?php if ($hassidepre OR (right_to_left() AND $hassidepost)) { ?>
-                <div id="region-pre" class="block-region grid_2">
+                <div id="region-pre" class="block-region grid_3">
                     <div class="region-content">
                             <?php
                         if (!right_to_left()) {
@@ -114,12 +114,12 @@ echo $OUTPUT->doctype() ?>
                 <?php } ?>
 
                 <?php
-                $gsgrid = 8;
+                $gsgrid = 10;
                 if (!($hassidepre OR (right_to_left() AND $hassidepost))) {
-                    $gsgrid += 2;
+                    $gsgrid += 3;
                 }
                 if (!($hassidepost OR (right_to_left() AND $hassidepre))) {
-                    $gsgrid += 2;
+                    $gsgrid += 3;
                 }
                 ?>
 
@@ -134,7 +134,7 @@ echo $OUTPUT->doctype() ?>
                 </div>
 
                 <?php if ($hassidepost OR (right_to_left() AND $hassidepre)) { ?>
-                <div id="region-post" class="block-region grid_2">
+                <div id="region-post" class="block-region grid_3">
                     <div class="region-content">
                            <?php
                        if (!right_to_left()) {
@@ -155,7 +155,7 @@ echo $OUTPUT->doctype() ?>
         <div id="course-footer"><?php echo $coursefooter; ?></div>
     <?php } ?>
     <?php if ($hasfooter) { ?>
-    <div id="page-footer" class="clearfix grid_12">
+    <div id="page-footer" class="clearfix grid_16">
         <p class="helplink"><?php echo page_doc_link(get_string('moodledocslink')) ?></p>
         <?php
         echo $OUTPUT->login_info();
