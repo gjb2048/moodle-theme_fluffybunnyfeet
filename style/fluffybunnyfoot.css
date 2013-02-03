@@ -1,0 +1,109 @@
+/**
+ * Theme version info
+ *
+ * @package    theme_fluffybunnyfeet
+ * @copyright  &copy; 2013-onwards G J Barnard.
+ * @author     G J Barnard - gjbarnard at gmail dot com and {@link http://moodle.org/user/profile.php?id=442195}
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+html, body {
+    background: url([[pix:theme|body20]]) repeat scroll 0 0 #FFA500;
+}
+
+#page {
+    background: url([[pix:theme|wrapper20]]) repeat scroll 0 0 #FFBB3D;
+    margin:0 auto;
+    box-shadow:0 0 6px #333;
+}
+
+.block, #region-main-wrap{
+    background: url([[pix:theme|content20]]) repeat scroll 0 0 #FFFFFF;
+}
+
+.navbar {
+    box-shadow:0 0 3px #333;
+    min-height:40px;
+    background:#434339;
+    background:-moz-repeating-linear-gradient(#545449, #343429 40px);
+    background:-webkit-repeating-linear-gradient(#545449, #343429 40px);
+    background:-o-repeating-linear-gradient(#545449, #343429 40px);
+    background:-ms-repeating-linear-gradient(#545449, #343429 40px);
+    background:repeating-linear-gradient(#545449, #343429 40px);
+}
+
+#region-main-wrap, .block {
+    margin-bottom:1.76%;
+    box-shadow:0 0 3px #333;
+    background:#fff;
+}
+
+.block {
+    border: 0px none;
+}
+
+#page-footer {
+    box-shadow:0 0 3px #333;
+    background:#383838;
+    background:-moz-linear-gradient(#444, #333);
+    background:-webkit-linear-gradient(#444, #333);
+    background:-o-linear-gradient(#444, #333);
+    background:-ms-linear-gradient(#444, #333);
+    background:linear-gradient(#444, #333);
+    color:#bbb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#page-header {
+   padding-bottom: 20px;
+}
+
+.navbar, .navbar a, #page-footer a {
+    color: #F0F0F0;
+}
+
+.logininfo a {
+    color: #333;
+}
+
+.navbar {
+    display: block;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbutton {
+    margin-top: 8px;
+}
+
+.generalbox, .main, .fbfcontent {
+    border: 0 none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+.fbfcontent h2 {
+    margin-top: 0px;
+}
+
+input[type="text"], input[type="password"], textarea {
+    width: 100%;
+}
+
+.content h3, h2 {
+    border-bottom: 1px solid #FFBB3D;
+}
+
+.content .toggle h3 { /* Collapsed Topics Toggles */
+    border-bottom: 0px none;
+}
